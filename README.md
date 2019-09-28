@@ -32,11 +32,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I spend most of my time on figuring out how to resolve the error. I tried using a older version(i.e. 3.1.2), adding certificate of the jcenter website with various method, substituting jcenter() by maven {url "http://jcenter.bintray.com"} in allprojects but failed.Finally I added maven {url "http://jcenter.bintray.com"} to bothe allprojects and repositories to solve this problem. This process took me more than 4 hours and I was about to give up. 
+
+Also, it takes me a while to get familiar with various libarary this app uses.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Peiyuan Ma]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
